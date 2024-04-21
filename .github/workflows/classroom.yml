@@ -23,9 +23,3 @@ jobs:
         command: make test
         timeout: 2
         max-score: 100
-    - name: Autograding Reporter
-      uses: education/autograding-grading-reporter@v1
-      env:
-        RUN-ALL-TESTS_RESULTS: "${{steps.run-all-tests.outputs.result}}"
-      with:
-        runners: run-all-tests
