@@ -1,4 +1,5 @@
 # autograding-example-cpp-catch
+test
 
 *Learning Autograding with C/C++ and Catch2 - Prof. Igor Machado Coelho*
 
